@@ -1,0 +1,25 @@
+body {
+  width: 700px;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: #27beaa;
+  border: 2px solid #27beaa;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#container {
+  width: 680px;
+  color: #792458;
+  text-align: left;
+  margin-left: 3%;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+#container a:hover {
+  color: red;
+}
+/*# sourceMappingURL=estilos.css.map */

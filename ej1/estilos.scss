@@ -1,0 +1,31 @@
+
+$myFont: Helvetica, sans-serif;
+$myColor: rgb(39, 190, 170);
+$myFontSize: 18px;
+$myWidth: 680px;
+
+
+body {
+  width: 700px;
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+  border: 2px solid $myColor;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+#container {
+  width: $myWidth;
+  $myColor: rgb(121, 36, 88);
+  color: $myColor;
+  text-align: left;
+  margin-left: 3%;
+  a{
+    text-decoration: none;
+    &:hover {
+    color: red;
+    }
+  }
+}
